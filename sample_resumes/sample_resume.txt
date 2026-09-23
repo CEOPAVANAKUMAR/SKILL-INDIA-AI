@@ -1,0 +1,21 @@
+Aarav Sharma
+aarav.sharma@example.com | +91 98765 43210
+
+Education:
+B.Tech in Computer Science, VNR Vignana Jyothi Institute of Engineering, 2022-2026
+
+Skills:
+Python, SQL, Pandas, NumPy, Machine Learning, Scikit-learn, TensorFlow,
+Flask, Git, Data Visualization, Statistics
+
+Projects:
+1. Spam Classifier — Built a text classification model using scikit-learn and TF-IDF,
+   achieving 94% accuracy on a public spam dataset.
+2. Sales Dashboard — Built an interactive sales analytics dashboard using Python and
+   Pandas, reducing manual reporting time by 60%.
+3. Student Result Predictor — Trained a regression model to predict exam scores from
+   study habits data, deployed with Flask as a REST API.
+
+Certifications:
+- Machine Learning Specialization, Coursera
+- SQL for Data Science, Coursera

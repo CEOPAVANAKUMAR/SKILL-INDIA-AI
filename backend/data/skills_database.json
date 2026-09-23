@@ -1,0 +1,228 @@
+{
+  "skills": {
+    "python": {"label": "Python", "category": "Programming", "aliases": ["python", "python3", "py"]},
+    "java": {"label": "Java", "category": "Programming", "aliases": ["java"]},
+    "javascript": {"label": "JavaScript", "category": "Programming", "aliases": ["javascript", "js", "es6"]},
+    "typescript": {"label": "TypeScript", "category": "Programming", "aliases": ["typescript", "ts"]},
+    "c_plus_plus": {"label": "C++", "category": "Programming", "aliases": ["c++", "cpp", "c plus plus"]},
+    "r_language": {"label": "R", "category": "Programming", "aliases": ["r language", "r programming", "r for data science"]},
+    "go_lang": {"label": "Go", "category": "Programming", "aliases": ["golang", "go lang"]},
+    "sql": {"label": "SQL", "category": "Programming", "aliases": ["sql", "mysql queries", "structured query language"]},
+    "bash_scripting": {"label": "Bash Scripting", "category": "Programming", "aliases": ["bash", "shell scripting", "shell script"]},
+
+    "html_css": {"label": "HTML & CSS", "category": "Web Development", "aliases": ["html", "css", "html5", "css3", "html/css"]},
+    "react": {"label": "React.js", "category": "Web Development", "aliases": ["react", "react.js", "reactjs"]},
+    "nodejs": {"label": "Node.js", "category": "Web Development", "aliases": ["node.js", "nodejs", "node js"]},
+    "express": {"label": "Express.js", "category": "Web Development", "aliases": ["express.js", "expressjs", "express"]},
+    "flask": {"label": "Flask", "category": "Web Development", "aliases": ["flask"]},
+    "fastapi": {"label": "FastAPI", "category": "Web Development", "aliases": ["fastapi"]},
+    "django": {"label": "Django", "category": "Web Development", "aliases": ["django"]},
+
+    "machine_learning": {"label": "Machine Learning", "category": "AI & ML", "aliases": ["machine learning", "ml"]},
+    "deep_learning": {"label": "Deep Learning", "category": "AI & ML", "aliases": ["deep learning", "dl"]},
+    "statistics": {"label": "Statistics", "category": "AI & ML", "aliases": ["statistics", "statistical analysis"]},
+    "feature_engineering": {"label": "Feature Engineering", "category": "AI & ML", "aliases": ["feature engineering"]},
+    "model_deployment": {"label": "Model Deployment", "category": "AI & ML", "aliases": ["model deployment", "ml deployment"]},
+    "mlops": {"label": "MLOps", "category": "AI & ML", "aliases": ["mlops", "ml ops"]},
+    "computer_vision": {"label": "Computer Vision", "category": "AI & ML", "aliases": ["computer vision", "cv", "opencv-based vision"]},
+    "reinforcement_learning": {"label": "Reinforcement Learning", "category": "AI & ML", "aliases": ["reinforcement learning", "rl"]},
+    "data_visualization": {"label": "Data Visualization", "category": "AI & ML", "aliases": ["data visualization", "data viz"]},
+
+    "nlp": {"label": "NLP", "category": "NLP & GenAI", "aliases": ["nlp", "natural language processing"]},
+    "transformers": {"label": "Transformers", "category": "NLP & GenAI", "aliases": ["transformers", "transformer models"]},
+    "llm": {"label": "LLMs", "category": "NLP & GenAI", "aliases": ["llm", "large language model", "large language models"]},
+    "prompt_engineering": {"label": "Prompt Engineering", "category": "NLP & GenAI", "aliases": ["prompt engineering"]},
+    "rag": {"label": "RAG", "category": "NLP & GenAI", "aliases": ["rag", "retrieval augmented generation", "retrieval-augmented generation"]},
+    "langchain": {"label": "LangChain", "category": "NLP & GenAI", "aliases": ["langchain"]},
+    "fine_tuning": {"label": "Fine-tuning", "category": "NLP & GenAI", "aliases": ["fine-tuning", "fine tuning", "model fine tuning"]},
+    "vector_database": {"label": "Vector Databases", "category": "NLP & GenAI", "aliases": ["vector database", "vector db", "vector store"]},
+    "embeddings": {"label": "Embeddings", "category": "NLP & GenAI", "aliases": ["embeddings", "sentence embeddings", "text embeddings"]},
+    "generative_ai": {"label": "Generative AI", "category": "NLP & GenAI", "aliases": ["generative ai", "genai", "gen ai"]},
+
+    "numpy": {"label": "NumPy", "category": "ML Libraries", "aliases": ["numpy"]},
+    "pandas": {"label": "Pandas", "category": "ML Libraries", "aliases": ["pandas"]},
+    "scikit_learn": {"label": "Scikit-learn", "category": "ML Libraries", "aliases": ["scikit-learn", "sklearn", "scikit learn"]},
+    "tensorflow": {"label": "TensorFlow", "category": "ML Libraries", "aliases": ["tensorflow"]},
+    "pytorch": {"label": "PyTorch", "category": "ML Libraries", "aliases": ["pytorch"]},
+    "keras": {"label": "Keras", "category": "ML Libraries", "aliases": ["keras"]},
+    "spacy": {"label": "spaCy", "category": "ML Libraries", "aliases": ["spacy"]},
+    "opencv": {"label": "OpenCV", "category": "ML Libraries", "aliases": ["opencv"]},
+
+    "mysql": {"label": "MySQL", "category": "Databases", "aliases": ["mysql"]},
+    "postgresql": {"label": "PostgreSQL", "category": "Databases", "aliases": ["postgresql", "postgres"]},
+    "mongodb": {"label": "MongoDB", "category": "Databases", "aliases": ["mongodb", "mongo db"]},
+    "redis": {"label": "Redis", "category": "Databases", "aliases": ["redis"]},
+    "neo4j": {"label": "Neo4j", "category": "Databases", "aliases": ["neo4j"]},
+    "elasticsearch": {"label": "Elasticsearch", "category": "Databases", "aliases": ["elasticsearch"]},
+    "faiss": {"label": "FAISS", "category": "Databases", "aliases": ["faiss"]},
+    "chromadb": {"label": "ChromaDB", "category": "Databases", "aliases": ["chromadb", "chroma db", "chroma"]},
+
+    "aws": {"label": "AWS", "category": "Cloud & DevOps", "aliases": ["aws", "amazon web services"]},
+    "azure": {"label": "Azure", "category": "Cloud & DevOps", "aliases": ["azure", "microsoft azure"]},
+    "gcp": {"label": "Google Cloud", "category": "Cloud & DevOps", "aliases": ["gcp", "google cloud"]},
+    "docker": {"label": "Docker", "category": "Cloud & DevOps", "aliases": ["docker"]},
+    "kubernetes": {"label": "Kubernetes", "category": "Cloud & DevOps", "aliases": ["kubernetes", "k8s"]},
+    "ci_cd": {"label": "CI/CD", "category": "Cloud & DevOps", "aliases": ["ci/cd", "ci cd", "continuous integration"]},
+    "terraform": {"label": "Terraform", "category": "Cloud & DevOps", "aliases": ["terraform"]},
+    "linux": {"label": "Linux", "category": "Cloud & DevOps", "aliases": ["linux"]},
+
+    "apache_spark": {"label": "Apache Spark", "category": "Data Engineering", "aliases": ["apache spark", "spark", "pyspark"]},
+    "airflow": {"label": "Airflow", "category": "Data Engineering", "aliases": ["airflow", "apache airflow"]},
+    "kafka": {"label": "Kafka", "category": "Data Engineering", "aliases": ["kafka", "apache kafka"]},
+    "etl": {"label": "ETL Pipelines", "category": "Data Engineering", "aliases": ["etl", "etl pipelines", "data pipelines"]},
+
+    "git": {"label": "Git", "category": "Tools", "aliases": ["git", "version control"]},
+    "rest_api": {"label": "REST APIs", "category": "Tools", "aliases": ["rest api", "rest apis", "restful api"]},
+    "graphql": {"label": "GraphQL", "category": "Tools", "aliases": ["graphql"]},
+    "tableau": {"label": "Tableau", "category": "Tools", "aliases": ["tableau"]},
+    "power_bi": {"label": "Power BI", "category": "Tools", "aliases": ["power bi", "powerbi"]},
+    "excel": {"label": "Excel", "category": "Tools", "aliases": ["excel", "ms excel", "microsoft excel"]},
+
+    "agile_methodology": {"label": "Agile", "category": "Practices", "aliases": ["agile", "scrum"]},
+    "unit_testing": {"label": "Unit Testing", "category": "Practices", "aliases": ["unit testing", "unit tests", "pytest"]},
+    "system_design": {"label": "System Design", "category": "Practices", "aliases": ["system design"]}
+  },
+
+  "careers": {
+    "data_scientist": {
+      "label": "Data Scientist",
+      "description": "Analyzes data and builds statistical/ML models to drive business decisions.",
+      "required_skills": {"python": 3, "sql": 3, "statistics": 3, "pandas": 2, "numpy": 2, "machine_learning": 3, "data_visualization": 2, "scikit_learn": 2, "deep_learning": 1}
+    },
+    "data_analyst": {
+      "label": "Data Analyst",
+      "description": "Turns raw data into dashboards and reports that inform decisions.",
+      "required_skills": {"sql": 3, "excel": 3, "data_visualization": 3, "python": 2, "statistics": 2, "tableau": 2, "power_bi": 2}
+    },
+    "ml_engineer": {
+      "label": "ML Engineer",
+      "description": "Builds, trains, and productionizes machine learning models at scale.",
+      "required_skills": {"python": 3, "machine_learning": 3, "deep_learning": 3, "tensorflow": 2, "pytorch": 2, "mlops": 2, "docker": 2, "model_deployment": 2, "sql": 1}
+    },
+    "ai_engineer": {
+      "label": "AI Engineer",
+      "description": "Applies deep learning and NLP/vision techniques to build intelligent systems.",
+      "required_skills": {"python": 3, "machine_learning": 3, "deep_learning": 3, "nlp": 2, "computer_vision": 1, "transformers": 2, "pytorch": 2, "docker": 1}
+    },
+    "generative_ai_engineer": {
+      "label": "Generative AI Engineer",
+      "description": "Builds LLM-powered applications: RAG systems, agents, and fine-tuned models.",
+      "required_skills": {"python": 3, "machine_learning": 3, "deep_learning": 3, "transformers": 3, "rag": 3, "langchain": 3, "vector_database": 3, "llm": 3, "prompt_engineering": 2, "fine_tuning": 2}
+    },
+    "backend_developer": {
+      "label": "Backend Developer",
+      "description": "Designs and builds server-side systems, APIs, and data layers.",
+      "required_skills": {"python": 2, "java": 2, "sql": 2, "rest_api": 3, "fastapi": 2, "django": 2, "docker": 2, "git": 2, "system_design": 2, "postgresql": 2}
+    },
+    "full_stack_developer": {
+      "label": "Full Stack Developer",
+      "description": "Builds end-to-end web applications, front end to back end.",
+      "required_skills": {"javascript": 3, "react": 3, "nodejs": 2, "rest_api": 2, "mongodb": 2, "git": 2, "html_css": 2, "typescript": 1}
+    },
+    "cloud_devops_engineer": {
+      "label": "Cloud / DevOps Engineer",
+      "description": "Manages cloud infrastructure, deployment pipelines, and system reliability.",
+      "required_skills": {"aws": 3, "docker": 3, "kubernetes": 3, "ci_cd": 3, "terraform": 2, "linux": 2, "azure": 1}
+    },
+    "data_engineer": {
+      "label": "Data Engineer",
+      "description": "Builds pipelines and infrastructure that move and transform data reliably.",
+      "required_skills": {"python": 2, "sql": 3, "apache_spark": 3, "airflow": 2, "kafka": 2, "etl": 3, "aws": 1, "postgresql": 1}
+    }
+  },
+
+  "jobs": [
+    {"id": "job_genai_01", "title": "Generative AI Engineer", "company": "Helix AI Labs", "career": "generative_ai_engineer", "required_skills": ["python", "machine_learning", "deep_learning", "transformers", "rag", "langchain", "vector_database", "llm"]},
+    {"id": "job_ds_01", "title": "Data Scientist", "company": "Vertex Analytics", "career": "data_scientist", "required_skills": ["python", "sql", "statistics", "pandas", "machine_learning", "data_visualization"]},
+    {"id": "job_mle_01", "title": "Machine Learning Engineer", "company": "Fathom AI", "career": "ml_engineer", "required_skills": ["python", "machine_learning", "deep_learning", "tensorflow", "docker", "mlops"]},
+    {"id": "job_ai_01", "title": "AI Engineer", "company": "Quanta Systems", "career": "ai_engineer", "required_skills": ["python", "machine_learning", "deep_learning", "nlp", "pytorch", "transformers"]},
+    {"id": "job_da_01", "title": "Data Analyst", "company": "Orbit Data Co", "career": "data_analyst", "required_skills": ["sql", "excel", "data_visualization", "python", "tableau"]},
+    {"id": "job_be_01", "title": "Backend Developer", "company": "BluePeak Software", "career": "backend_developer", "required_skills": ["python", "fastapi", "rest_api", "postgresql", "docker", "git"]},
+    {"id": "job_fs_01", "title": "Full Stack Developer", "company": "Lumen Interactive", "career": "full_stack_developer", "required_skills": ["javascript", "react", "nodejs", "mongodb", "rest_api", "html_css"]},
+    {"id": "job_cloud_01", "title": "Cloud / DevOps Engineer", "company": "Nimbus Cloud Systems", "career": "cloud_devops_engineer", "required_skills": ["aws", "docker", "kubernetes", "terraform", "ci_cd", "linux"]},
+    {"id": "job_de_01", "title": "Data Engineer", "company": "Cascade Robotics", "career": "data_engineer", "required_skills": ["python", "sql", "apache_spark", "airflow", "etl", "kafka"]},
+    {"id": "job_genai_02", "title": "NLP / LLM Engineer", "company": "Meridian Tech", "career": "generative_ai_engineer", "required_skills": ["python", "nlp", "transformers", "llm", "prompt_engineering", "embeddings", "fine_tuning"]}
+  ],
+
+  "courses": {
+    "python": [{"name": "Python for Everybody", "platform": "Coursera"}],
+    "sql": [{"name": "SQL for Data Science", "platform": "Coursera"}],
+    "statistics": [{"name": "Statistics with Python Specialization", "platform": "Coursera"}],
+    "machine_learning": [{"name": "Machine Learning Specialization (Andrew Ng)", "platform": "Coursera / DeepLearning.AI"}],
+    "deep_learning": [{"name": "Deep Learning Specialization", "platform": "Coursera / DeepLearning.AI"}],
+    "data_visualization": [{"name": "Data Visualization with Python", "platform": "Coursera"}],
+    "tableau": [{"name": "Tableau for Beginners", "platform": "Udemy"}],
+    "power_bi": [{"name": "Microsoft Power BI Desktop", "platform": "Udemy"}],
+    "excel": [{"name": "Excel Skills for Business", "platform": "Coursera"}],
+    "nlp": [{"name": "Natural Language Processing Specialization", "platform": "Coursera / DeepLearning.AI"}],
+    "transformers": [{"name": "Natural Language Processing with Transformers", "platform": "Hugging Face Course"}],
+    "llm": [{"name": "Generative AI with Large Language Models", "platform": "Coursera / DeepLearning.AI"}],
+    "prompt_engineering": [{"name": "ChatGPT Prompt Engineering for Developers", "platform": "DeepLearning.AI"}],
+    "rag": [{"name": "Building RAG Applications", "platform": "DeepLearning.AI"}],
+    "langchain": [{"name": "LangChain for LLM Application Development", "platform": "DeepLearning.AI"}],
+    "fine_tuning": [{"name": "Fine-Tuning Large Language Models", "platform": "DeepLearning.AI"}],
+    "vector_database": [{"name": "Vector Databases: from Embeddings to Applications", "platform": "DeepLearning.AI"}],
+    "embeddings": [{"name": "Understanding and Applying Text Embeddings", "platform": "DeepLearning.AI"}],
+    "tensorflow": [{"name": "TensorFlow Developer Professional Certificate", "platform": "Coursera"}],
+    "pytorch": [{"name": "PyTorch for Deep Learning", "platform": "Udemy"}],
+    "computer_vision": [{"name": "Computer Vision Basics", "platform": "Coursera"}],
+    "mlops": [{"name": "Machine Learning Engineering for Production (MLOps)", "platform": "Coursera / DeepLearning.AI"}],
+    "model_deployment": [{"name": "Deploying Machine Learning Models", "platform": "Coursera"}],
+    "docker": [{"name": "Docker for Developers", "platform": "Udemy"}],
+    "kubernetes": [{"name": "Kubernetes for the Absolute Beginners", "platform": "Udemy"}],
+    "aws": [{"name": "AWS Certified Cloud Practitioner", "platform": "AWS Training"}],
+    "terraform": [{"name": "HashiCorp Certified: Terraform Associate", "platform": "HashiCorp Learn"}],
+    "ci_cd": [{"name": "CI/CD Pipelines with GitHub Actions", "platform": "Udemy"}],
+    "react": [{"name": "React - The Complete Guide", "platform": "Udemy"}],
+    "nodejs": [{"name": "Node.js, Express, MongoDB & More", "platform": "Udemy"}],
+    "fastapi": [{"name": "FastAPI - The Complete Course", "platform": "Udemy"}],
+    "django": [{"name": "Django for Everybody", "platform": "Coursera"}],
+    "rest_api": [{"name": "REST APIs with Flask and Python", "platform": "Udemy"}],
+    "system_design": [{"name": "Grokking the System Design Interview", "platform": "Educative"}],
+    "apache_spark": [{"name": "Big Data Analysis with Apache Spark", "platform": "edX"}],
+    "airflow": [{"name": "Data Engineering with Apache Airflow", "platform": "Udemy"}],
+    "kafka": [{"name": "Apache Kafka Series", "platform": "Udemy"}],
+    "etl": [{"name": "ETL and Data Pipelines with Python", "platform": "Coursera"}]
+  },
+
+  "project_ideas": {
+    "python": "Automate a repetitive personal task (e.g. file organizer or expense tracker) as a CLI tool.",
+    "sql": "Design and query a normalized database for a mock e-commerce store.",
+    "statistics": "Run an A/B test analysis on a public dataset and report significance.",
+    "machine_learning": "Build and evaluate a classifier (e.g. churn or spam prediction) end to end.",
+    "deep_learning": "Train an image classifier on a small custom dataset using transfer learning.",
+    "data_visualization": "Build an interactive dashboard summarizing a public dataset of your choice.",
+    "tableau": "Create a multi-page Tableau dashboard from a public sales or sports dataset.",
+    "power_bi": "Build a Power BI report connected to a live or sample data source.",
+    "excel": "Build a financial model or KPI tracker with pivot tables and dashboards in Excel.",
+    "nlp": "Build a sentiment analysis tool for product reviews or tweets.",
+    "transformers": "Fine-tune a small transformer model for a text classification task.",
+    "llm": "Build a Q&A assistant over your own notes using an LLM API.",
+    "prompt_engineering": "Design and test a prompt library for a specific task (e.g. resume review).",
+    "rag": "Build a RAG-based document assistant using LangChain, FAISS and an LLM, evaluating retrieval accuracy.",
+    "langchain": "Build a multi-step LangChain agent that chains together search, retrieval, and summarization.",
+    "fine_tuning": "Fine-tune a small open-source LLM on a domain-specific dataset (e.g. support tickets).",
+    "vector_database": "Index a document collection in a vector database and benchmark similarity search quality.",
+    "embeddings": "Build a semantic search engine over a document set using sentence embeddings.",
+    "tensorflow": "Build and train a neural network in TensorFlow on a structured dataset.",
+    "pytorch": "Implement a custom neural network architecture from scratch in PyTorch.",
+    "computer_vision": "Build an object detection app using a pretrained vision model.",
+    "mlops": "Set up an ML pipeline with experiment tracking and automated retraining.",
+    "model_deployment": "Deploy a trained model behind a REST API and containerize it with Docker.",
+    "docker": "Containerize a full-stack app with Docker Compose.",
+    "kubernetes": "Deploy a containerized app to a local Kubernetes cluster with autoscaling.",
+    "aws": "Deploy a serverless API using AWS Lambda and API Gateway.",
+    "terraform": "Provision a small cloud environment (VPC, compute, storage) using Terraform.",
+    "ci_cd": "Set up a CI/CD pipeline that tests and deploys on every push.",
+    "react": "Build a responsive single-page app with React and a public API.",
+    "nodejs": "Build a REST API backend with Node.js, Express, and MongoDB.",
+    "fastapi": "Build a documented REST API with FastAPI and deploy it.",
+    "django": "Build a full CRUD web app with authentication using Django.",
+    "rest_api": "Design and document a REST API following OpenAPI conventions.",
+    "system_design": "Write a design doc for scaling a URL shortener to millions of users.",
+    "apache_spark": "Process a large public dataset using PySpark and compare performance to pandas.",
+    "airflow": "Build an Airflow DAG that automates a daily ETL job.",
+    "kafka": "Build a real-time event pipeline using Kafka producers and consumers.",
+    "etl": "Build an ETL pipeline that cleans and loads data from multiple sources into a warehouse."
+  }
+}
